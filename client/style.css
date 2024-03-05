@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+/*font-family: "Outfit", sans-serif;*/
+
+.fullscreen {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #FCFCFD, #E8ECEF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title {
+    font-size: 3vw;
+    font-family: 'Archivo Black', sans-serif;
+    color: black;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+
+.title-2 {
+    color: #A48374;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.container {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desc {
+    font-size: 1.8vw;
+}
+
+.input-form {
+    padding: 5px;
+    resize: none;
+    height: 25px;
+    width: 250px;
+    font-size: 1.3vw;
+    border-radius: 5px;
+}
+
+.button {
+    height: 35px;
+    width: 150px;
+    background-color: #A48374;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.answer {
+    font-size: 1.3vw;
+    display: flex;
+    flex-direction: row;
+}
