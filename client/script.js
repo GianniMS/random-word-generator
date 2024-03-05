@@ -1,5 +1,9 @@
 let responseData = ``;
 
+function displayResponse() {
+    document.getElementById("display-response").innerHTML = `${responseData.response}`;
+}
+
 async function handleSubmit(event) {
     event.preventDefault();
 
@@ -15,8 +19,7 @@ async function handleSubmit(event) {
 
         responseData = await response.json();
 
-        console.log(responseData);
-
+        displayResponse();
     } catch (error) {
         console.error("Error fetching response:", error);
     }
