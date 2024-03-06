@@ -63,8 +63,6 @@
 
 .answer {
     font-size: 1.3vw;
-    display: flex;
-    flex-direction: row;
 }
 
 .topic-form {

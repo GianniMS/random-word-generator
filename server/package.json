@@ -13,12 +13,15 @@
   "author": "Gianni Mendonça Semedo",
   "license": "ISC",
   "dependencies": {
+    "@langchain/anthropic": "^0.1.3",
     "axios": "^1.6.7",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.18.3",
-    "llamaai": "^1.0.4",
     "node": "^21.6.2",
     "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.16.1"
   }
 }

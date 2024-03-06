@@ -1,7 +1,7 @@
 let responseData = ``;
 
 function displayResponse() {
-    document.getElementById("display-response").innerHTML = `${responseData.response}`;
+    document.getElementById("display-response").innerText = responseData.response;
 }
 
 async function handleSubmit(event) {
@@ -14,7 +14,7 @@ async function handleSubmit(event) {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({query: userInput})
+            body: JSON.stringify({ query: userInput })
         });
 
         responseData = await response.json();
